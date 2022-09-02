@@ -22,10 +22,10 @@ def addVectors(aLabel, bLabel)
 
     #return resultaat
 
-v1 = list [1, 2]
-v2 = list [2, 1]
+aLabal = list [1, 2]
+bLabel = list [2, 1]
 
-w = addVectors(v1, v2)
+w = addVectors(aLabel, bLabel)
 
 
 # Voorbeelden van Matrix berekingen
