@@ -27,19 +27,28 @@ bLabel = list [2, 1]
 
 w = addVectors(aLabel, bLabel)
 
+# Vectoren optellen
 
-# Voorbeelden van Matrix berekingen
-#
-# A = [[1, 2, 3],
-#      [4, 5, 6],
-#      [7, 8, 9]]
-#
-# B = [[25, 24, 23, 22],
-#      [21, 20, 19, 18],
-#      [17, 16, 15, 14]]
-#
-# #
-# res = [[sum(a * b for a, b in zip(A_row, B_col))
-#         for B_col in zip(*B)] for A_row in A]
-# for r in res:
-#    print(r)
+vectore_A = [0, 3, 1]
+vectore_B = [1, 4, 7]
+
+vectore_result = [0, 0, 0]
+
+for rowIndex in range(len(vectore_A [0])):
+    for columnIndex in range(len(vectore_B [0])):
+        vectore_result [rowIndex][columnIndex] += vectore_A [rowIndex] + vectore_B [columnIndex]
+for result in vectore_result
+        print(result)
+
+# oplossing vectoren optellen
+
+vectore_A = [0, 3, 1]
+vectore_B = [1, 4, 9]
+
+vectore_result = [0, 0, 0]
+
+for rowIndex in range(len(vectore_A)):
+    vectore_result [rowIndex] += vectore_A [rowIndex] + vectore_B [rowIndex]
+
+for result in vectore_result:
+    print(result)
