@@ -15,5 +15,9 @@ etc/
 share/
 .DS_Store
 env/
+<<<<<<< HEAD
 simulations/
 log.txt
+=======
+simulations/
+>>>>>>> fed51cf (simulator update)
