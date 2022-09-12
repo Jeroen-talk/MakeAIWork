@@ -54,12 +54,12 @@ def divide(divideList, divideNumber):
 
 print(divideList)
 
+# TrainingSet Vector
 
-# myList = []
-# for tuple in tupleOfTuples:
-#     myList = myList + list(tuple)
+vecTrainingSet = divideList.pop(8)
 
-# print(trainingSet)
+# dataSet index
+setIndex = vecTrainingSet.pop(8)
 
 
 # matrixToVactor = []
