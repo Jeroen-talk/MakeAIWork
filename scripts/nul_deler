@@ -1,0 +1,14 @@
+# Deze code geeft aan de delen door 0 niet mogelijk is.
+
+
+
+  a = 5
+  b = 0
+
+    if b == 0:
+        c = "Delen door 0 is niet mogelijk."
+
+    else:
+        c = int(a)/int(b)
+
+        print(c)
