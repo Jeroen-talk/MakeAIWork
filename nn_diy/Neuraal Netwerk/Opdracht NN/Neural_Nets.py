@@ -30,12 +30,49 @@ trainingSet = (
 )
 
 
-class Node:
-    def __init__(self):
-        self.value = None,
-        self.inLinks[]
+# make one list out of the tuples in tulp
+tupleToList = (list(trainingSet))
+tuplesInTupleToLists = []
+for t in tupleToList:
+    for i in t:
+        for k in i:
+            for j in k:
+                tuplesInTupleToLists.append(j)
+
+# print(tuplesInTupleToLists)
+
+# divide in to four lists
+
+divideList = list()
+divideNumber = 4
 
 
-class Linn:
-    def __init__(self, inputNodes, outpurtNodes):
-        self.weight = 1
+def divide(divideList, divideNumber):
+    for i in range(0, len(tuplesInTupleToLists), divideNumber):
+        divideList.appand(tuplesInTupleToLists[i:i+divideList])
+
+
+print(divideList)
+
+
+# myList = []
+# for tuple in tupleOfTuples:
+#     myList = myList + list(tuple)
+
+# print(trainingSet)
+
+
+# matrixToVactor = []
+# for
+
+# test sets
+
+# class Node:
+#     def __init__(self):
+#         self.value = None,
+#         self.inLinks[]
+
+
+# class Linn:
+#     def __init__(self, inputNodes, outpurtNodes):
+#         self.weight = 1
