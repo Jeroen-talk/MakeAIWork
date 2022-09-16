@@ -39,27 +39,27 @@ for t in tupleToList:
             for j in k:
                 tuplesInTupleToLists.append(j)
 
-# print(tuplesInTupleToLists)
+print(tuplesInTupleToLists)
 
 # divide in to four lists
 
-divideList = list()
-divideNumber = 4
+# divideList = list()
+# divideNumber = 4
 
 
-def divide(divideList, divideNumber):
-    for i in range(0, len(tuplesInTupleToLists), divideNumber):
-        divideList.appand(tuplesInTupleToLists[i:i+divideList])
+# def divide(divideList, divideNumber):
+#     for i in range(0, len(tuplesInTupleToLists), divideNumber):
+#         divideList.appand(tuplesInTupleToLists[i:i+divideList])
 
 
-print(divideList)
+# print(divideList)
 
 # TrainingSet Vector
 
-vecTrainingSet = divideList.pop(8)
+# vecTrainingSet = divideList.pop(8)
 
-# dataSet index
-setIndex = vecTrainingSet.pop(8)
+# dataSet label
+# setIndex = vecTrainingSet.pop(8)
 
 
 # matrixToVactor = []
