@@ -19,3 +19,5 @@ simulations/
 log.txt
 Opdrachten/
 simpylc/ManualCar/
+simpylc/simulations/car/control_client/driving_agentPieter.py
+.gitignore
