@@ -21,3 +21,4 @@ Opdrachten/
 simpylc/ManualCar/
 simpylc/simulations/car/control_client/driving_agentPieter.py
 .gitignore
+simpylc/tensorflow_sample_setup/dotnets-master
