@@ -15,7 +15,6 @@ etc/
 share/
 .DS_Store
 env/
-simulations/
 log.txt
 Opdrachten/
 simpylc/ManualCar/
