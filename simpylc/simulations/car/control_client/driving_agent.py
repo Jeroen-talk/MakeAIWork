@@ -39,7 +39,7 @@ import sys as ss
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
-loadSonarModel = r'../learningModelSonar'
+loadSonarModel = r'simpylc/simulations/car/control_client/learningModelSonar'
 
 
 class DrivingAgent:
